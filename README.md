@@ -286,3 +286,5 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git push origin <branch_name>` -> Pushes a local branch to the origin remote.
 
+`git push -f`                   -> The server's contents will be overwritten with your contents (force).
+
