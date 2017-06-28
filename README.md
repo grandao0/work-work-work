@@ -49,6 +49,13 @@ In the output, notice:
 - The date and time of the commit
 - The commit message
 
+Additional parameters for git log are:
+
+- --oneline
+- --decorate
+- --graph
+- --all
+
 When working on a Git project, sometimes we make changes that we want to get rid of.
 
 Git offers a few eraser-like features that allow us to undo mistakes during project creation.
