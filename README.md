@@ -147,6 +147,8 @@ In the output, notice the lines:
 - CONFLICT (content): Merge conflict in <file_name>.
 - Automatic merge failed; fix conflicts and then commit the result.
 
+If you want to use a graphical tool to resolve these issues, you can run `git mergetool`, which fires up an appropriate visual merge tool and walks you through the conflicts.
+
 In Git, branches are usually a means to an end.
 
 You create them to work on a new project feature, but the end goal is to merge that feature into the master branch.
