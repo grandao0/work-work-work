@@ -297,3 +297,5 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git push -f`                   -> The server's contents will be overwritten with your contents (force).
 
+`git push origin --delete <branch_name>` -> Deletes the specified remote branch.
+
