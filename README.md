@@ -285,7 +285,7 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git branch -d <branch_name>`   -> Deletes the branch specified.
 
-`git clone <remote_location>` <clone_name> -> Creates a local copy of a remote.
+`git clone <remote_location> <clone_name>` -> Creates a local copy of a remote.
 
 `git remote -v`                 -> Lists a Git project's remotes.
 
@@ -299,3 +299,6 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git push origin --delete <branch_name>` -> Deletes the specified remote branch.
 
+`git config --list` -> List all configs made in Git.
+
+`git config --global http.sslVerify false` -> Disable SSL verification
