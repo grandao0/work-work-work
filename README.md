@@ -291,6 +291,8 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git fetch`                     -> Fetches work from the remote into the local copy.
 
+`git fetch --all --prune`       -> Removes all obsolete local remote-tracking branches for any remote branches that no longer exist on the remote.
+
 `git merge origin/master`       -> Merges origin/master into your local branch.
 
 `git push origin <branch_name>` -> Pushes a local branch to the origin remote.
