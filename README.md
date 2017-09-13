@@ -289,7 +289,7 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git remote -v`                 -> Lists a Git project's remotes.
 
-`git remote add <name>origin <url>path/to/repository/.git` -> Adds a remote named <name> for the repository at <url>.
+`git remote add <name>origin <url>path/to/repository/.git` -> Adds a remote named \<name\> for the repository at \<url\>.
 
 `git fetch`                     -> Fetches work from the remote into the local copy.
 
