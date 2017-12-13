@@ -293,6 +293,8 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git remote add <name>origin <url>path/to/repository/.git` -> Adds a remote named \<name\> for the repository at \<url\>.
 
+`git remote set-url origin <url>path/to/repository/.git` -> Sets the \<url/> for the repository.
+
 `git fetch`                     -> Fetches work from the remote into the local copy.
 
 `git fetch --all --prune`       -> Removes all obsolete local remote-tracking branches for any remote branches that no longer exist on the remote.
