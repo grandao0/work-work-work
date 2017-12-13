@@ -293,7 +293,13 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git remote add <name>origin <url>path/to/repository/.git` -> Adds a remote named \<name\> for the repository at \<url\>.
 
-`git remote set-url origin <url>path/to/repository/.git` -> Sets the \<url/> for the repository.
+`git remote set-url origin <url>path/to/repository/.git` -> Sets the \<url\> for the repository.
+
+`git remote rename <old-name> <new-name>` -> Changes a remote’s shortname.
+
+`git remote rm <name>` -> Removes a remote.
+
+`git remote show origin` -> Lists the URL for the remote repository as well as the tracking branch information.
 
 `git fetch`                     -> Fetches work from the remote into the local copy.
 
