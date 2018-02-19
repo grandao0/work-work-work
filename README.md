@@ -283,6 +283,8 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git checkout <branch_name>`    -> Used to switch from one branch to another.
 
+`git checkout -b <branch_name> <branch_father>`    -> Used to create and switch from \<branch_name\> that is a clone of \<branch_father\>.
+
 `git merge <branch_name>`       -> Used to join file changes from one branch to another.
 
 `git branch -d <branch_name>`   -> Deletes the branch specified.
