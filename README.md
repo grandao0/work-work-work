@@ -273,6 +273,8 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git reset HEAD <file_name>`    -> Unstages file changes in the staging area.
 
+`git reset HEAD~`               -> Undo a commit.
+
 `git reset <SHA_code>`          -> Can be used to reset to a previous commit in your commit history.
 
 `git reset --hard`              -> Unstages and rollback everything.
