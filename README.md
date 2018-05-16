@@ -269,6 +269,8 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git log`                       -> shows a list of all previous commits.
 
+`git log --graph`               -> shows a list of all previous commits with a graph.
+
 `git checkout HEAD <file_name>` -> Discards changes in the working directory.
 
 `git reset HEAD <file_name>`    -> Unstages file changes in the staging area.
@@ -288,6 +290,8 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 `git checkout -b <branch_name> <branch_father>`    -> Used to create and switch from \<branch_name\> that is a clone of \<branch_father\>.
 
 `git merge <branch_name>`       -> Used to join file changes from one branch to another.
+
+`git rebase <branch_name>`       -> Used to join file changes from one branch to another.
 
 `git branch -d <branch_name>`   -> Deletes the branch specified.
 
@@ -316,6 +320,16 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 `git push -f`                   -> The server's contents will be overwritten with your contents (force).
 
 `git push origin --delete <branch_name>` -> Deletes the specified remote branch.
+
+`git stash`         -> Stashes the changes made to a branch.
+
+`git stash apply`   -> Apply the last stash to the branch.
+
+`git stash -l`      -> List all stashes in the branch.
+
+`git tag -a <tag_name> -m <tag_message>` -> Creates an annotated tag.
+
+`git tag -l`        -> List tags.
 
 `git config --list` -> List all configs made in Git.
 
