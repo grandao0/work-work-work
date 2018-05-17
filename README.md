@@ -331,6 +331,8 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git tag -l`        -> List tags.
 
+`git config --global --edit` -> Edits the config file.
+
 `git config --list` -> List all configs made in Git.
 
 `git config --global http.sslVerify false` -> Disable SSL verification.
