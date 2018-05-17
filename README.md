@@ -321,6 +321,8 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git push origin --delete <branch_name>` -> Deletes the specified remote branch.
 
+`git revert <SHA_code>`         -> Reverts the commit instead of reseting.
+
 `git stash`         -> Stashes the changes made to a branch.
 
 `git stash apply`   -> Apply the last stash to the branch.
