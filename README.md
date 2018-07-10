@@ -289,6 +289,10 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git checkout -b <branch_name> <branch_father>`    -> Used to create and switch from \<branch_name\> that is a clone of \<branch_father\>.
 
+`git branch -m new-name`        -> Rename your local branch if you are on the branch you want to rename.
+
+`git branch -m old-name new-name` -> Rename your local branch if you are on a different branch.
+
 `git merge <branch_name>`       -> Used to join file changes from one branch to another.
 
 `git rebase <branch_name>`       -> Used to join file changes from one branch to another.
