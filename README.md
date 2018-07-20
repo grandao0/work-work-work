@@ -267,6 +267,8 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git commit -m <some_message>`  -> permanently stores file changes from the staging area in the repository.
 
+`git commit --amend`            -> if the commit has not been pushed online, changes the commit name locally
+
 `git log`                       -> shows a list of all previous commits.
 
 `git log --graph`               -> shows a list of all previous commits with a graph.
