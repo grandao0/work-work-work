@@ -273,6 +273,8 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git log --graph`               -> shows a list of all previous commits with a graph.
 
+`git diff-tree --no-commit-id --name-only -r <SHA_code>` -> list all the files changed in the commit.
+
 `git checkout HEAD <file_name>` -> Discards changes in the working directory.
 
 `git reset HEAD <file_name>`    -> Unstages file changes in the staging area.
