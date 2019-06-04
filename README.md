@@ -282,6 +282,13 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 `git reset HEAD~`               -> Undo a commit.
 
 `git reset <SHA_code>`          -> Can be used to reset to a previous commit in your commit history.
+# Example:
+# Reset the index and working tree to the desired tree
+# Ensure you have no uncommitted changes that you want to keep
+`git reset --hard 56e05fced`
+# Move the branch pointer back to the previous HEAD
+`git reset --soft HEAD@{1}`
+`git commit -m "Revert to 56e05fced"`
 
 `git reset --hard`              -> Unstages and rollback everything.
 
