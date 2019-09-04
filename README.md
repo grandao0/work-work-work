@@ -354,3 +354,5 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 `git config --global http.sslVerify false` -> Disable SSL verification.
 
 `git config --global --replace-all http.sslverify false` -> Replace duplicates of a key config.
+
+`git reflog` -> Shows the log of all ref updates.
