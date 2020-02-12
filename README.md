@@ -305,6 +305,8 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 
 `git merge <branch_name>`       -> Used to join file changes from one branch to another.
 
+`git merge --abort`             -> Aborts a merge.
+
 `git rebase <branch_name>`       -> Used to join file changes from one branch to another.
 
 `git branch -d <branch_name>`   -> Deletes the branch specified.
