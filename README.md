@@ -358,3 +358,15 @@ The **Git Collaborative Workflow** are steps that enable smooth project developm
 `git config --global --replace-all http.sslverify false` -> Replace duplicates of a key config.
 
 `git reflog` -> Shows the log of all ref updates.
+
+```
+git checkout master
+git fetch --all --prune && git pull --all
+git pull
+git checkout vX-master
+git merge -s ours master
+git push
+git checkout master
+git merge vX-master
+git push
+```
